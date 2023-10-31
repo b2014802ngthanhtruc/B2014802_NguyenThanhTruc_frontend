@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const merchandisesRouter = require("./app/routes/merchandise.route");
-//const ApiError = require("./app/api-error");
+const ApiError = require("./app/api-error");
 
 const app = express();
 
